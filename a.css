@@ -1,0 +1,63 @@
+html , body{
+    background-color: rgb(93, 119, 119);
+    font: 15px 1.5 Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background-color: azure;
+    color: rgb(11, 11, 83);
+    padding-top: 10px;
+    min-height: 50px;
+    border-bottom: rgb(11, 11, 83) 3px solid;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.style{
+    display: flex;
+    place-content: space-between;
+    letter-spacing: 3px;
+}
+.style h1{
+    text-transform: uppercase;
+    font-size: bold;
+}
+.style p{
+    font-size: bold;
+    font-size: 1em;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 3%;
+}
+.style button{
+    font-weight: 100;
+    margin: 0;
+}
+
+.btn{
+    font-weight: 700;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+}
+
+span{
+    color: #007af3;
+}
+
+#showcase{
+    display: flex;
+    justify-content: center;
+   
+}
+#showcase h1{
+    font-size: 2rem;
+}
+.box{
+    display: flex;
+    align-items: flex-end;   
+}
